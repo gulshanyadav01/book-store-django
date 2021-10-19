@@ -7,6 +7,7 @@ from .models import Book, Author, Address
 
 admin.site.register(Book)
 admin.site.register(Author)
+
 admin.site.register(Address)
 
 
