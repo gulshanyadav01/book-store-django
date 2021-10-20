@@ -19,6 +19,7 @@ class Author(models.Model):
     address = models.OneToOneField(Address, on_delete = models.CASCADE, null= True)
 
     def full_name(self):
+        
         return f"{self.first_name} + " " + {self.last_name}"
 
 
